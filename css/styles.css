@@ -235,6 +235,7 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  outline: transparent;
 }
 
 .footer-address {
@@ -258,11 +259,14 @@ a {
   color: var(--mail-tel-color);
 }
 
-.footer-logo:focus,
+.footer-address:hover,
 .footer-address:focus,
+.footer-mail:hover,
 .footer-mail:focus,
+.footer-tel:hover,
 .footer-tel:focus {
   outline: transparent;
+  color: var(--accent-color);
 }
 
 /* -------------------- PORTFOLIO -------------------- */
@@ -272,11 +276,11 @@ a {
 .portfolio-hero {
   display: none;
 }
-.porfolio-nav {
-}
+
 .portfolio-list {
   list-style: none;
 }
+
 .portfolio-item {
 }
 
@@ -303,9 +307,6 @@ a {
   outline: transparent;
 }
 
-.portfolio-title {
-  display: none;
-}
 .portfolio-list-card {
   list-style: none;
 }
